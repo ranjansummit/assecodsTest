@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import {Card, Title, TextInput} from 'react-native-paper';
 import {useSelector, useDispatch} from 'react-redux';
-import {addnote, deletenote} from '../redux/notesApp';
+import {addnote, deletenote} from '../redux/loginApp';
 import AppIntroSlider from 'react-native-app-intro-slider';
 import {ImageBackground} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -146,7 +146,7 @@ const styles = StyleSheet.create({
   },
   card: {
     marginHorizontal: 10,
-    marginTop: 10,
+    marginTop: 30,
   },
 
   username: {

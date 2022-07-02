@@ -23,12 +23,14 @@ function Header({ titleText }) {
 
 const styles = StyleSheet.create({
   headerContainer: {
-    backgroundColor: '#FFFFFF'
+    backgroundColor: '#FFFFFF',
+    
   },
   container: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    marginTop:5
   },
   navBar: {
      paddingTop:50,
